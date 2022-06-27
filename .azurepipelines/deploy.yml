@@ -78,7 +78,7 @@ stages:
       - task: AzureFunctionApp@1
         displayName: deploy function app code
         inputs:
-          azureSubscription: 'Azure CBU Sponsorship'
+          azureSubscription: 'Visual Studio Enterprise Subscription – MPN'
           appType: 'functionApp'
           appName: $(function_app_name)
           package: '$(System.ArtifactsDirectory)/zip/drop/function.zip'
