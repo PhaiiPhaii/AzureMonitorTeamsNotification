@@ -44,7 +44,7 @@ stages:
       displayName: Deploy Azure Resouces - ARM Deployment
       inputs:
         deploymentScope: 'Resource Group'
-        azureResourceManagerConnection: 'Azure CBU Sponsorship'
+        azureResourceManagerConnection: 'service-ARM-connection'
         subscriptionId: '$(subscription_id)'
         action: 'Create Or Update Resource Group'
         resourceGroupName: '$(resouce_group)'
